@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student/Teacher Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="main">
+    <div id="side">
+        <h1>WELCOME</h1>
+        <p>
+            To be members of military programming, please register to
+            proceed. You can apply to teach other or become a Learner.
+        </p>
+        <button type="submit" class="submitBtn">login</button>
+    </div>
+       <div class="wrapper">
+           <div class="modalForm">
+        <div class="actionBtns">
+          <button class="actionBtn SignupBtn">Student</button>
+       <button class="actionBtn loginBtn">Teacher</button>
+      <button class="moveBtn ">Student</button>
+
+           </div>
+
+         <div class="userForm">
+          <form action="" class=" form signup signupForm">
+              <h1>Apply as a Student</h1>
+         <table>
+              <tr>
+                 <td>
+             <input type="text" name="name" placeholder="First Name *">
+                 </td>
+                  <td>
+             <input type="email" name="email" placeholder="Email *">
+                  </td>
+               </tr>
+               <tr>
+                   <td>
+               <input type="text" name="name" placeholder="Last Name *">
+                   </td>
+                   <td>
+              <input type="tel" name="tel" placeholder="Your Phone *">
+                    </td>
+               </tr>
+                <tr>
+                    <td>
+               <input type="password" name="password" placeholder="Password *">
+                     </td>
+                     <td>
+             <select name="dropdown">
+                <option value=""  selected>Please select your equality</option>
+                <option value="">Learner</option>
+               <option value="">Upgrade skills</option>
+            </select>
+                     </td>
+                 </tr>
+                 <tr>
+                     <td>
+            <input type="password" name="password" placeholder="Confirm Password *">
+                     </td>
+                     <td>
+            <input type="text" name="name" placeholder="Enter your answer *">
+                   </td>
+                 </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="sex" >female
+                    <input type="radio" name="sex" >male
+
+                </td>
+            </tr>
+         </table>
+              <button type="submit" class="submitBtn">Register</button><br>
+
+            </form>
+
+
+             <form action="" class="form login">
+                 <h1>Apply as a Teacher</h1>
+                 <table>
+                     <tr>
+                         <td>
+                             <input type="text" name="name" placeholder="First Name *">
+                         </td>
+                         <td>
+                             <input type="email" name="email" placeholder="Email *">
+                         </td>
+                     </tr>
+                     <tr>
+                         <td>
+                             <input type="text" name="name" placeholder="Last Name *">
+                         </td>
+                         <td>
+                             <input type="tel" name="tel" placeholder="Your Phone *">
+                         </td>
+                     </tr>
+                     <tr>
+                         <td>
+                             <input type="password" name="password" placeholder="Password *">
+                         </td>
+                         <td>
+                             <select name="dropdown">
+                                 <option value="" selected>Please select your equality</option>
+                                 <option value="">Learner</option>
+                                 <option value="">Upgrade skills</option>
+                             </select>
+                         </td>
+                     </tr>
+                     <tr>
+                         <td>
+                             <input type="password" name="password" placeholder="Confirm Password *">
+                         </td>
+                         <td>
+                             <input type="text" name="name" placeholder="Answer *">
+                         </td>
+                     </tr>
+                 </table>
+                 <button type="submit" class="submitBtn">Apply</button><br>
+             </form>
+               </div>
+           </div>
+
+       </div>
+    </div>
+<script src="javascript.js"></script>
+</body>
+</html>

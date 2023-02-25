@@ -1,0 +1,141 @@
+.container{
+    background-color: white;
+   font-size: 20px;
+
+}
+header{
+    background-image: url("images/bg.jpeg");
+    color: maroon;
+
+}
+header h1{
+    padding: 0;
+    margin: 0;
+}
+header p{
+    margin-top: 0;
+
+}
+
+.main{
+    display: flex;
+}
+.div1{
+    flex-direction: column;
+    flex:1;
+margin-right: 15px;
+    margin-left: 5px;
+}
+#d1{
+border: solid 1px;
+    margin-bottom:10px ;
+}
+#d2{
+    border: solid 1px;
+    margin-bottom:10px ;
+}
+#d3{
+    border: solid 1px;
+}
+#d4{
+    display: flex;
+    background-color: maroon;
+    color: white;
+
+}
+#d7{
+    border: solid 1px;
+    background-color: cornflowerblue;
+
+}
+#d8{
+    border: solid 1px;
+    margin-top: 20px;
+}
+.div2{
+   flex: 3;
+    margin-right: 15px;
+}
+.div3{
+    flex: 1;
+}
+h2{
+    padding: 0;
+    margin: 0;
+    background-color: maroon;
+    color: white;
+    text-align: center;
+}
+#d9{
+background-image: url("images/last.jpg");
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+h3{
+color: maroon;
+    text-align: center;
+}
+.main h1{
+    text-align: center;
+}
+a{
+    color: darkmagenta;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+}
+a:hover{
+    background-color: #444444;
+    color: white;
+
+}
+#nav{
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+
+}
+img{
+    float: left;
+}
+#nav h1{
+    background-image: url("images/b.jpeg");
+    height: 50px;
+    width: 115px;
+    padding-top: 30px;
+    text-align: center;
+   color: darkmagenta;
+    margin-left: 30px;
+}
+input{
+    margin-top: 10px;
+    margin-left:10% ;
+    padding: 10px;
+    background-color: white;
+}
+.submitBtn{
+    width: 80px;
+    padding: 3px;
+    margin: 2em 4em;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    background-color: #bbbbbb;
+    cursor: pointer;
+    font-size: 0.8em;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+.submitBtn:hover{
+    background-color: darkslategrey;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+hr{
+    height: 10px;
+    width: 90%;
+    margin-left: 40px;
+    background-color: maroon;
+}

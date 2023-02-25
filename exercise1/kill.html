@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>News</title>
+  <style>
+    #more {display: none;}
+  </style>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body >
+<header class="container">
+  <div class="slideshow"></div>
+  <div id="pic">
+    <img src="images/img1.jpeg" alt="images">
+  </div>
+  <div class="content">
+    <h1>Beta Tinz</h1>
+    <p>Your N1 gist and news provider<br>Stay tune.</p>
+  </div>
+</header>
+<section >
+  <div class="contain">
+    <div id="nav">
+      <h1 style="text-align: center; color: greenyellow" ><u>Check for:</u></h1><br>
+      <nav>
+        <a href="#">Job Opportunities</a><br>
+        <a href="#">Adverts</a><br>
+        <a href="#">Discoveries</a><br>
+        <a href="#">Contact Us</a><br>
+      </nav>
+    </div>
+    <div id="first2">
+      <h1 style="text-align: center; color:blue" ><u>Our Latest Update</u></h1><br>
+      <p><img src="images/pic.jpeg" alt="images" height="100" width="100"><b>A tragic incident
+        happened in Nkolbison Yaounde where a couple their 3kids in the room and went out in the night</b><span id="dots">...</span><span id="more"><br>
+        and there was no light, so they left the candle on and locked the door from
+        outside and went with the keys.<br>
+        unfortunately, the candle burn and fell-off till it burned the room and the kids in it to ashes.<br>so heartbreaking.....<br><br>
+        May the souls of this kids RIP</span></p>
+      <button onclick="myFunction()" id="myBtn">Read more</button>
+      <script>
+        function myFunction() {
+          let dots = document.getElementById("dots");
+          let moreText = document.getElementById("more");
+          let btnText = document.getElementById("myBtn");
+
+          if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more";
+            moreText.style.display = "none";
+          } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less";
+            moreText.style.display = "inline";
+          }
+        }
+      </script>
+    </div>
+    <div class="product-container">
+      <img src="images/loss.webp" alt="images" style="height: 7em; width: 12em">
+      <h3 style="color: #eeeeee">Weight loss tips</h3>
+      <div class="button">
+        <a href="#" class="read">More Info</a>
+      </div>
+    </div>
+  </div>
+  <div id="container">
+    <div class="wrapper">
+      <h3 class="title" style="color: #eeeeee"> <u>Recent Happenings</u></h3>
+      <div class="product-container">
+        <div class="product" data-name="p-1">
+          <img src="images/pic6.jpeg" alt="">
+          <h3>About the mountain race....</h3>
+          <div class="button">
+            <a href="index.html" class="see">Continue Reading</a>
+          </div>
+        </div>
+        <div class="product" data-name="p-1">
+          <img src="images/pic3.jpg" alt="">
+          <h3>Cameroonian,LUDOVIC TANGPI wins award....</h3>
+          <div class="button">
+            <a href="win.html" class="see">Continue Reading</a>
+          </div>
+        </div>
+
+        <div class="product" data-name="p-1">
+          <img src="images/pic2.jpg" alt="">
+          <h3>Updates on COVID-19</h3>
+          <div class="button">
+            <a href="#" class="see">Continue Reading</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+</body>
+</html>
